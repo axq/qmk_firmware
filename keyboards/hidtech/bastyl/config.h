@@ -30,7 +30,7 @@
 #define MATRIX_ROW_PINS { D7, B5, F7, F6, B6 }
 #define MATRIX_COL_PINS { B4, E6, C6, B1, B3, B2 }
 #define RGB_DI_PIN D2
-#define RGBLED_NUM 38
+#define RGBLED_NUM 58
 #define RGBLIGHT_SPLIT
 #define RGBLIGHT_ANIMATIONS
 #define DEBOUNCE 5
@@ -38,3 +38,8 @@
 #define LOCKING_SUPPORT_ENABLE
 #define LOCKING_RESYNC_ENABLE
 #define MASTER_RIGHT
+
+//axq changes
+#define RGBLIGHT_LIMIT_VAL 100
+#define IGNORE_MOD_TAP_INTERRUPT
+#define RETRO_SHIFT 500
