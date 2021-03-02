@@ -1,4 +1,4 @@
-/* 
+/*
  * Copyright 2020 Quentin LEBASTARD <qlebastard@gmail.com>
  * Copyright 2020 Anthony MARIN <anthony@hidtech.ca>
  *
@@ -42,4 +42,3 @@
 //axq changes
 #define RGBLIGHT_LIMIT_VAL 100
 #define IGNORE_MOD_TAP_INTERRUPT
-#define RETRO_SHIFT 500
